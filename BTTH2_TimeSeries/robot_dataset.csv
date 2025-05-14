@@ -1,0 +1,501 @@
+Robot_ID,Task_Type,Component_ID,Sensor_Type,Sensor_Data,Processing_Time (s),Accuracy (%),Environmental_Status,Energy_Consumption (kWh),Human_Intervention_Needed,Obstacle_Detected,Defect_Detected
+RBT_001,Inspection,CMP_460,LIDAR,1 (obstacle detected),67.0,90.4,Stable,2.2,No,Yes,Yes
+RBT_002,Assembly,CMP_252,Thermal,85.3 (°C),71.2,98.1,Stable,2.7,Yes,No,No
+RBT_003,Inspection,CMP_248,Thermal,92% (visual fit),49.2,95.3,Unstable,2.4,No,No,No
+RBT_004,Welding,CMP_433,Camera,98% (defect-free),74.5,90.2,Stable,2.4,Yes,No,Yes
+RBT_005,Assembly,CMP_992,Camera,92% (visual fit),64.5,97.2,Unstable,1.8,No,No,No
+RBT_006,Painting,CMP_309,Thermal,1 (obstacle detected),51.6,93.4,Unstable,1.5,No,No,No
+RBT_007,Assembly,CMP_637,Thermal,1 (obstacle detected),50.9,95.5,Stable,1.8,Yes,No,Yes
+RBT_008,Inspection,CMP_571,Camera,85.3 (°C),61.7,90.2,Unstable,2.3,Yes,Yes,No
+RBT_009,Assembly,CMP_630,Camera,0 (clear path),49.4,92.9,Stable,1.7,Yes,Yes,No
+RBT_010,Painting,CMP_617,LIDAR,0 (no obstacle),65.1,94.1,Stable,2.9,No,No,No
+RBT_011,Assembly,CMP_567,Camera,0 (no obstacle),48.5,96.1,Unstable,2.6,Yes,Yes,Yes
+RBT_012,Painting,CMP_268,LIDAR,75.8 (°C),44.8,99.6,Stable,2.2,No,Yes,No
+RBT_013,Inspection,CMP_631,Thermal,98% (defect-free),53.2,93.8,Unstable,2.0,No,No,No
+RBT_014,Inspection,CMP_115,Camera,82.4 (°C),41.7,92.0,Stable,2.2,Yes,No,No
+RBT_015,Inspection,CMP_932,LIDAR + Camera,92% (visual fit),50.0,91.3,Stable,2.8,Yes,No,Yes
+RBT_016,Assembly,CMP_424,LIDAR + Camera,92% (visual fit),57.0,98.1,Unstable,1.6,Yes,Yes,No
+RBT_017,Inspection,CMP_201,Camera,0 (no obstacle),78.1,98.9,Stable,2.9,Yes,Yes,Yes
+RBT_018,Painting,CMP_262,LIDAR + Camera,92% (visual fit),49.3,92.0,Unstable,1.8,Yes,No,Yes
+RBT_019,Inspection,CMP_742,LIDAR + Camera,1 (obstacle detected),78.9,98.5,Unstable,2.4,Yes,No,Yes
+RBT_020,Painting,CMP_370,Thermal,0 (no obstacle),75.6,98.7,Stable,1.1,Yes,Yes,No
+RBT_021,Painting,CMP_926,LIDAR + Camera,92% (visual fit),79.3,97.7,Unstable,2.6,No,No,Yes
+RBT_022,Painting,CMP_904,Camera,98% (defect-free),59.8,90.1,Stable,2.6,No,Yes,No
+RBT_023,Assembly,CMP_308,Thermal,92% (visual fit),78.3,99.3,Stable,1.3,No,No,Yes
+RBT_024,Welding,CMP_105,Camera,0 (no obstacle),55.1,92.0,Stable,2.2,Yes,No,Yes
+RBT_025,Inspection,CMP_968,LIDAR,1 (obstacle detected),72.6,99.3,Unstable,2.5,No,Yes,No
+RBT_026,Painting,CMP_443,LIDAR,98% (defect-free),69.4,95.2,Stable,2.0,Yes,No,No
+RBT_027,Assembly,CMP_864,LIDAR + Camera,75.8 (°C),44.4,95.6,Stable,2.2,Yes,Yes,Yes
+RBT_028,Welding,CMP_123,Thermal,85.3 (°C),57.9,95.2,Stable,3.0,No,Yes,No
+RBT_029,Assembly,CMP_972,Camera,82.4 (°C),61.3,92.2,Stable,2.3,Yes,No,No
+RBT_030,Painting,CMP_853,Camera,0 (no obstacle),44.8,93.8,Stable,2.9,Yes,No,Yes
+RBT_031,Welding,CMP_933,Camera,0 (no obstacle),50.5,98.5,Stable,2.7,No,No,Yes
+RBT_032,Assembly,CMP_948,Camera,98% (defect-free),49.5,92.5,Unstable,2.7,No,No,No
+RBT_033,Painting,CMP_788,LIDAR,1 (obstacle detected),73.4,99.5,Stable,1.2,No,Yes,Yes
+RBT_034,Welding,CMP_995,LIDAR,0 (no obstacle),52.9,97.4,Unstable,1.0,Yes,No,No
+RBT_035,Welding,CMP_789,Thermal,82.4 (°C),66.2,98.3,Unstable,2.2,No,Yes,Yes
+RBT_036,Welding,CMP_966,Camera,85.3 (°C),45.4,96.2,Stable,1.3,Yes,Yes,No
+RBT_037,Welding,CMP_298,Thermal,0 (clear path),51.7,95.5,Stable,1.6,No,No,Yes
+RBT_038,Assembly,CMP_425,Thermal,1 (obstacle detected),79.7,94.9,Stable,2.4,Yes,Yes,Yes
+RBT_039,Painting,CMP_514,Camera,82.4 (°C),60.2,98.7,Stable,2.6,No,No,Yes
+RBT_040,Inspection,CMP_224,Thermal,98% (defect-free),55.7,98.0,Stable,2.3,Yes,Yes,No
+RBT_041,Welding,CMP_856,LIDAR + Camera,75.8 (°C),59.4,93.2,Stable,1.3,Yes,Yes,No
+RBT_042,Welding,CMP_461,LIDAR + Camera,98% (defect-free),40.9,94.3,Stable,1.0,No,Yes,Yes
+RBT_043,Inspection,CMP_373,Camera,0 (no obstacle),53.2,90.8,Unstable,1.2,No,Yes,No
+RBT_044,Painting,CMP_658,LIDAR,0 (no obstacle),73.5,97.8,Stable,1.3,No,No,Yes
+RBT_045,Welding,CMP_818,LIDAR,1 (obstacle detected),55.2,90.9,Unstable,1.3,No,Yes,No
+RBT_046,Welding,CMP_857,LIDAR + Camera,92% (visual fit),69.0,94.2,Stable,1.5,Yes,No,Yes
+RBT_047,Assembly,CMP_117,Camera,1 (obstacle detected),61.1,93.7,Unstable,2.9,No,Yes,Yes
+RBT_048,Welding,CMP_564,Thermal,85.3 (°C),69.5,90.8,Unstable,1.9,Yes,Yes,Yes
+RBT_049,Assembly,CMP_717,LIDAR,0 (clear path),70.3,92.7,Unstable,2.6,No,Yes,Yes
+RBT_050,Inspection,CMP_108,Thermal,75.8 (°C),62.4,97.5,Unstable,1.1,Yes,Yes,Yes
+RBT_051,Painting,CMP_995,LIDAR + Camera,98% (defect-free),50.3,94.3,Stable,1.8,No,Yes,Yes
+RBT_052,Inspection,CMP_476,Camera,98% (defect-free),46.0,90.2,Stable,2.8,No,No,Yes
+RBT_053,Painting,CMP_255,LIDAR,1 (obstacle detected),74.1,91.1,Stable,1.3,Yes,No,No
+RBT_054,Inspection,CMP_367,Thermal,85.3 (°C),55.4,92.4,Stable,1.7,No,Yes,No
+RBT_055,Painting,CMP_424,Camera,82.4 (°C),77.9,99.0,Stable,1.1,No,Yes,Yes
+RBT_056,Inspection,CMP_707,Thermal,92% (visual fit),75.9,90.7,Stable,2.9,Yes,No,Yes
+RBT_057,Assembly,CMP_436,LIDAR + Camera,75.8 (°C),40.5,99.5,Unstable,2.3,Yes,Yes,Yes
+RBT_058,Inspection,CMP_803,LIDAR + Camera,0 (no obstacle),56.3,96.9,Unstable,1.3,No,Yes,Yes
+RBT_059,Welding,CMP_137,LIDAR,92% (visual fit),48.8,96.1,Unstable,2.2,Yes,No,Yes
+RBT_060,Welding,CMP_930,Camera,85.3 (°C),74.7,98.6,Stable,2.5,No,Yes,Yes
+RBT_061,Inspection,CMP_564,LIDAR,82.4 (°C),43.7,98.2,Stable,1.8,Yes,Yes,Yes
+RBT_062,Painting,CMP_442,Camera,92% (visual fit),66.3,99.4,Unstable,2.8,Yes,Yes,Yes
+RBT_063,Assembly,CMP_834,Thermal,98% (defect-free),59.4,94.6,Stable,1.8,No,No,No
+RBT_064,Assembly,CMP_443,LIDAR,1 (obstacle detected),47.5,97.6,Unstable,2.5,No,Yes,Yes
+RBT_065,Welding,CMP_867,Camera,0 (clear path),62.4,95.0,Stable,2.6,No,Yes,Yes
+RBT_066,Assembly,CMP_224,LIDAR + Camera,75.8 (°C),64.2,91.8,Unstable,1.3,No,No,Yes
+RBT_067,Inspection,CMP_509,Thermal,0 (no obstacle),66.1,95.7,Unstable,2.1,No,No,No
+RBT_068,Painting,CMP_395,Thermal,1 (obstacle detected),72.0,97.0,Unstable,3.0,No,No,No
+RBT_069,Assembly,CMP_404,Thermal,98% (defect-free),50.4,96.6,Stable,2.4,No,No,Yes
+RBT_070,Welding,CMP_653,LIDAR + Camera,0 (no obstacle),47.4,91.5,Unstable,2.2,Yes,No,Yes
+RBT_071,Painting,CMP_624,LIDAR,75.8 (°C),78.8,91.2,Stable,2.8,No,No,No
+RBT_072,Assembly,CMP_159,Thermal,98% (defect-free),68.3,96.1,Unstable,1.5,Yes,Yes,No
+RBT_073,Assembly,CMP_876,Thermal,85.3 (°C),41.1,90.1,Unstable,2.9,Yes,No,No
+RBT_074,Welding,CMP_344,LIDAR + Camera,85.3 (°C),66.0,91.6,Unstable,2.6,No,Yes,Yes
+RBT_075,Welding,CMP_582,LIDAR + Camera,85.3 (°C),43.8,96.4,Stable,1.4,No,No,Yes
+RBT_076,Assembly,CMP_280,LIDAR,98% (defect-free),78.3,95.3,Unstable,1.1,No,No,Yes
+RBT_077,Welding,CMP_173,LIDAR,75.8 (°C),47.9,90.5,Stable,1.3,No,Yes,Yes
+RBT_078,Assembly,CMP_714,Camera,75.8 (°C),46.1,98.1,Unstable,2.4,Yes,No,No
+RBT_079,Assembly,CMP_756,LIDAR + Camera,0 (clear path),71.7,96.7,Stable,2.8,No,No,Yes
+RBT_080,Inspection,CMP_481,Thermal,82.4 (°C),65.1,97.4,Unstable,1.5,Yes,No,Yes
+RBT_081,Welding,CMP_166,Thermal,1 (obstacle detected),51.1,90.8,Unstable,2.9,No,Yes,No
+RBT_082,Assembly,CMP_479,LIDAR + Camera,0 (clear path),56.0,92.5,Unstable,1.1,Yes,No,Yes
+RBT_083,Welding,CMP_487,Camera,98% (defect-free),46.1,93.4,Unstable,2.7,No,No,No
+RBT_084,Welding,CMP_811,Thermal,92% (visual fit),48.5,92.9,Unstable,2.4,Yes,No,No
+RBT_085,Assembly,CMP_585,LIDAR + Camera,92% (visual fit),54.9,93.2,Unstable,1.5,No,Yes,Yes
+RBT_086,Painting,CMP_569,Thermal,1 (obstacle detected),45.6,92.1,Unstable,1.8,Yes,Yes,No
+RBT_087,Assembly,CMP_623,LIDAR,85.3 (°C),54.7,95.7,Unstable,2.5,Yes,Yes,No
+RBT_088,Painting,CMP_662,Thermal,0 (no obstacle),77.3,95.4,Stable,2.6,No,Yes,Yes
+RBT_089,Inspection,CMP_464,Camera,75.8 (°C),80.0,93.8,Stable,2.2,No,Yes,Yes
+RBT_090,Inspection,CMP_433,LIDAR + Camera,92% (visual fit),40.1,97.8,Unstable,1.8,Yes,Yes,No
+RBT_091,Inspection,CMP_864,LIDAR,75.8 (°C),55.6,99.7,Stable,2.5,No,Yes,Yes
+RBT_092,Welding,CMP_189,LIDAR + Camera,92% (visual fit),61.0,98.9,Unstable,2.5,No,Yes,No
+RBT_093,Painting,CMP_800,LIDAR,92% (visual fit),70.9,91.3,Unstable,3.0,No,Yes,No
+RBT_094,Assembly,CMP_605,LIDAR + Camera,0 (clear path),75.8,91.2,Stable,1.3,Yes,Yes,No
+RBT_095,Painting,CMP_462,LIDAR,1 (obstacle detected),65.3,92.1,Unstable,1.6,Yes,Yes,Yes
+RBT_096,Painting,CMP_729,LIDAR,75.8 (°C),76.9,90.7,Unstable,1.8,No,No,No
+RBT_097,Welding,CMP_881,LIDAR,0 (clear path),63.7,93.4,Stable,1.7,Yes,No,Yes
+RBT_098,Assembly,CMP_596,LIDAR,75.8 (°C),78.4,93.6,Unstable,2.6,No,Yes,No
+RBT_099,Inspection,CMP_268,Thermal,98% (defect-free),75.5,90.9,Stable,1.1,No,No,No
+RBT_100,Welding,CMP_537,LIDAR + Camera,1 (obstacle detected),78.8,96.3,Stable,2.3,Yes,Yes,No
+RBT_101,Painting,CMP_540,Thermal,0 (clear path),78.7,95.4,Stable,2.5,Yes,No,No
+RBT_102,Welding,CMP_550,LIDAR,98% (defect-free),61.3,96.4,Unstable,1.1,No,No,No
+RBT_103,Assembly,CMP_269,Thermal,85.3 (°C),77.1,96.9,Stable,1.2,Yes,Yes,No
+RBT_104,Inspection,CMP_199,LIDAR + Camera,82.4 (°C),44.7,97.5,Unstable,1.8,No,Yes,Yes
+RBT_105,Welding,CMP_649,LIDAR + Camera,1 (obstacle detected),42.1,98.8,Unstable,1.1,Yes,No,No
+RBT_106,Welding,CMP_554,LIDAR + Camera,1 (obstacle detected),52.4,92.4,Stable,1.2,No,No,No
+RBT_107,Inspection,CMP_856,LIDAR,0 (clear path),72.2,91.8,Stable,2.9,Yes,No,Yes
+RBT_108,Welding,CMP_681,LIDAR,85.3 (°C),47.1,93.5,Unstable,2.7,No,No,Yes
+RBT_109,Painting,CMP_394,LIDAR + Camera,98% (defect-free),42.3,96.7,Unstable,1.4,No,Yes,Yes
+RBT_110,Assembly,CMP_577,Thermal,1 (obstacle detected),65.7,91.0,Stable,1.8,Yes,No,Yes
+RBT_111,Inspection,CMP_737,Thermal,85.3 (°C),59.5,95.7,Unstable,2.4,No,No,No
+RBT_112,Assembly,CMP_440,Camera,92% (visual fit),52.5,94.4,Stable,2.4,Yes,No,No
+RBT_113,Assembly,CMP_574,LIDAR + Camera,98% (defect-free),77.7,91.7,Unstable,2.3,No,No,Yes
+RBT_114,Assembly,CMP_540,Camera,1 (obstacle detected),41.3,97.5,Unstable,1.0,No,No,Yes
+RBT_115,Painting,CMP_925,Camera,82.4 (°C),56.5,99.4,Unstable,2.4,Yes,No,Yes
+RBT_116,Welding,CMP_984,Thermal,0 (clear path),72.9,90.8,Unstable,1.8,Yes,No,No
+RBT_117,Assembly,CMP_491,Thermal,0 (no obstacle),75.3,90.7,Stable,2.0,Yes,Yes,No
+RBT_118,Assembly,CMP_240,LIDAR + Camera,98% (defect-free),52.7,97.7,Stable,2.3,No,Yes,Yes
+RBT_119,Welding,CMP_498,Camera,75.8 (°C),49.7,98.3,Unstable,2.6,Yes,Yes,Yes
+RBT_120,Welding,CMP_747,LIDAR,0 (clear path),65.5,94.6,Unstable,1.1,No,Yes,Yes
+RBT_121,Inspection,CMP_386,Camera,1 (obstacle detected),51.4,93.8,Stable,1.4,Yes,No,Yes
+RBT_122,Inspection,CMP_461,LIDAR + Camera,1 (obstacle detected),64.6,95.0,Unstable,1.6,Yes,Yes,Yes
+RBT_123,Welding,CMP_489,LIDAR,1 (obstacle detected),65.8,90.1,Unstable,2.6,No,No,Yes
+RBT_124,Painting,CMP_270,Camera,0 (no obstacle),40.2,91.9,Stable,2.0,Yes,No,Yes
+RBT_125,Welding,CMP_233,Thermal,1 (obstacle detected),57.5,90.1,Stable,2.3,No,Yes,No
+RBT_126,Inspection,CMP_993,LIDAR,0 (clear path),42.8,91.5,Stable,2.1,Yes,Yes,Yes
+RBT_127,Inspection,CMP_429,LIDAR + Camera,92% (visual fit),40.4,98.8,Stable,2.3,No,No,No
+RBT_128,Welding,CMP_188,LIDAR,0 (clear path),43.9,92.0,Unstable,2.7,No,No,Yes
+RBT_129,Painting,CMP_619,Thermal,85.3 (°C),68.2,91.0,Stable,1.1,No,Yes,Yes
+RBT_130,Assembly,CMP_920,Thermal,0 (clear path),53.8,97.7,Stable,2.5,No,No,No
+RBT_131,Assembly,CMP_717,Thermal,92% (visual fit),70.3,95.0,Stable,1.7,No,Yes,No
+RBT_132,Welding,CMP_137,Thermal,0 (clear path),60.4,95.9,Unstable,1.3,No,No,Yes
+RBT_133,Painting,CMP_241,LIDAR + Camera,1 (obstacle detected),53.3,96.2,Stable,1.8,Yes,No,Yes
+RBT_134,Welding,CMP_617,Camera,92% (visual fit),47.4,97.0,Stable,1.3,No,Yes,Yes
+RBT_135,Inspection,CMP_613,Thermal,1 (obstacle detected),54.4,95.1,Unstable,2.9,No,Yes,No
+RBT_136,Painting,CMP_476,Thermal,1 (obstacle detected),57.5,96.6,Stable,2.1,Yes,Yes,Yes
+RBT_137,Welding,CMP_583,Thermal,1 (obstacle detected),64.1,96.4,Unstable,2.6,No,Yes,No
+RBT_138,Inspection,CMP_105,Camera,0 (no obstacle),61.7,99.7,Unstable,1.7,No,No,No
+RBT_139,Assembly,CMP_684,Camera,98% (defect-free),70.0,90.0,Stable,1.2,Yes,No,No
+RBT_140,Painting,CMP_941,LIDAR + Camera,85.3 (°C),75.0,94.8,Unstable,1.9,Yes,Yes,No
+RBT_141,Welding,CMP_772,Thermal,0 (no obstacle),46.7,91.7,Stable,1.5,No,Yes,No
+RBT_142,Assembly,CMP_359,Camera,0 (no obstacle),79.5,99.0,Stable,1.6,Yes,No,Yes
+RBT_143,Inspection,CMP_782,Camera,85.3 (°C),54.9,92.5,Stable,1.5,Yes,No,No
+RBT_144,Assembly,CMP_275,Camera,85.3 (°C),55.6,90.9,Unstable,2.2,Yes,Yes,No
+RBT_145,Assembly,CMP_443,LIDAR,0 (no obstacle),75.7,95.4,Unstable,2.4,No,Yes,No
+RBT_146,Welding,CMP_508,LIDAR,82.4 (°C),74.5,99.7,Stable,2.1,No,Yes,Yes
+RBT_147,Inspection,CMP_277,Thermal,92% (visual fit),52.8,95.4,Stable,1.8,No,Yes,Yes
+RBT_148,Assembly,CMP_207,LIDAR,85.3 (°C),48.4,94.2,Unstable,2.0,No,Yes,Yes
+RBT_149,Assembly,CMP_461,Thermal,1 (obstacle detected),48.9,98.6,Stable,1.1,Yes,Yes,Yes
+RBT_150,Inspection,CMP_351,Camera,92% (visual fit),53.8,91.1,Unstable,2.6,Yes,No,No
+RBT_151,Painting,CMP_536,Thermal,75.8 (°C),77.2,99.3,Stable,1.3,Yes,No,Yes
+RBT_152,Assembly,CMP_819,Camera,82.4 (°C),59.6,93.2,Unstable,1.2,Yes,No,Yes
+RBT_153,Painting,CMP_724,LIDAR,85.3 (°C),48.4,91.9,Unstable,2.4,Yes,No,Yes
+RBT_154,Inspection,CMP_830,LIDAR + Camera,75.8 (°C),58.5,94.4,Unstable,1.5,No,No,Yes
+RBT_155,Painting,CMP_545,Camera,0 (no obstacle),46.6,94.0,Stable,1.3,Yes,Yes,No
+RBT_156,Painting,CMP_403,LIDAR + Camera,75.8 (°C),56.5,96.7,Stable,1.4,Yes,No,No
+RBT_157,Inspection,CMP_395,Thermal,92% (visual fit),55.6,93.6,Unstable,2.7,No,No,No
+RBT_158,Welding,CMP_526,Camera,75.8 (°C),70.9,90.6,Unstable,1.7,No,Yes,No
+RBT_159,Assembly,CMP_914,LIDAR + Camera,0 (no obstacle),60.3,98.9,Unstable,2.0,No,No,No
+RBT_160,Welding,CMP_658,LIDAR,92% (visual fit),78.1,95.9,Stable,1.8,No,Yes,Yes
+RBT_161,Welding,CMP_600,Camera,0 (no obstacle),51.3,90.2,Stable,2.1,Yes,Yes,Yes
+RBT_162,Inspection,CMP_709,Camera,1 (obstacle detected),69.6,94.0,Unstable,2.8,Yes,No,Yes
+RBT_163,Painting,CMP_816,LIDAR,98% (defect-free),77.2,90.4,Unstable,1.5,No,No,No
+RBT_164,Welding,CMP_116,Thermal,1 (obstacle detected),54.3,97.2,Stable,1.6,No,No,No
+RBT_165,Painting,CMP_837,Camera,82.4 (°C),51.0,95.4,Unstable,2.7,Yes,Yes,Yes
+RBT_166,Assembly,CMP_825,LIDAR + Camera,1 (obstacle detected),61.0,90.1,Unstable,2.9,Yes,No,No
+RBT_167,Assembly,CMP_344,LIDAR + Camera,85.3 (°C),66.5,93.0,Unstable,1.2,Yes,No,No
+RBT_168,Painting,CMP_843,LIDAR,75.8 (°C),78.6,93.3,Stable,2.6,Yes,No,No
+RBT_169,Painting,CMP_314,LIDAR + Camera,82.4 (°C),56.4,90.7,Unstable,1.9,Yes,Yes,No
+RBT_170,Assembly,CMP_177,Camera,0 (no obstacle),68.6,96.0,Stable,1.8,Yes,No,Yes
+RBT_171,Inspection,CMP_887,LIDAR,0 (no obstacle),47.1,92.2,Stable,2.5,Yes,No,Yes
+RBT_172,Welding,CMP_559,LIDAR + Camera,85.3 (°C),45.7,94.7,Unstable,1.9,Yes,Yes,No
+RBT_173,Welding,CMP_915,LIDAR + Camera,92% (visual fit),62.3,90.7,Stable,1.8,Yes,No,No
+RBT_174,Inspection,CMP_178,LIDAR,75.8 (°C),53.1,98.5,Unstable,2.9,Yes,Yes,Yes
+RBT_175,Inspection,CMP_408,Camera,92% (visual fit),75.3,91.5,Stable,2.1,No,No,Yes
+RBT_176,Welding,CMP_778,Thermal,1 (obstacle detected),64.4,94.2,Unstable,1.4,Yes,No,No
+RBT_177,Painting,CMP_669,Camera,0 (no obstacle),46.1,98.7,Stable,2.0,Yes,Yes,No
+RBT_178,Welding,CMP_432,LIDAR,0 (no obstacle),41.6,93.6,Stable,2.8,No,Yes,No
+RBT_179,Welding,CMP_994,LIDAR,85.3 (°C),45.1,98.9,Stable,1.6,No,No,No
+RBT_180,Assembly,CMP_755,Camera,75.8 (°C),66.6,99.7,Unstable,1.1,Yes,Yes,Yes
+RBT_181,Assembly,CMP_573,Thermal,0 (no obstacle),63.8,96.9,Unstable,2.5,Yes,No,Yes
+RBT_182,Inspection,CMP_843,Camera,82.4 (°C),42.8,95.0,Stable,2.4,Yes,Yes,No
+RBT_183,Assembly,CMP_983,LIDAR + Camera,1 (obstacle detected),62.3,91.6,Unstable,1.8,Yes,No,Yes
+RBT_184,Inspection,CMP_462,LIDAR + Camera,98% (defect-free),74.6,92.3,Stable,2.6,No,No,No
+RBT_185,Welding,CMP_388,Thermal,1 (obstacle detected),58.9,97.5,Stable,2.5,No,Yes,Yes
+RBT_186,Welding,CMP_691,Thermal,82.4 (°C),40.2,93.4,Stable,2.7,No,Yes,No
+RBT_187,Inspection,CMP_313,LIDAR,0 (no obstacle),75.0,94.2,Unstable,2.3,Yes,No,No
+RBT_188,Painting,CMP_154,LIDAR,82.4 (°C),43.0,91.3,Stable,1.9,Yes,No,No
+RBT_189,Welding,CMP_516,Camera,82.4 (°C),79.9,95.9,Unstable,2.3,Yes,No,Yes
+RBT_190,Inspection,CMP_343,Camera,0 (clear path),62.2,92.2,Stable,1.1,No,No,Yes
+RBT_191,Painting,CMP_686,LIDAR,92% (visual fit),58.1,98.9,Unstable,2.4,No,No,Yes
+RBT_192,Assembly,CMP_238,LIDAR + Camera,85.3 (°C),53.9,93.2,Stable,2.7,No,No,Yes
+RBT_193,Inspection,CMP_385,LIDAR,98% (defect-free),41.2,92.7,Unstable,1.8,Yes,Yes,No
+RBT_194,Painting,CMP_791,Thermal,98% (defect-free),72.8,98.8,Stable,1.2,Yes,Yes,No
+RBT_195,Assembly,CMP_764,LIDAR + Camera,92% (visual fit),76.7,91.3,Stable,2.9,Yes,Yes,No
+RBT_196,Inspection,CMP_852,Thermal,0 (clear path),53.9,92.9,Unstable,2.1,Yes,No,Yes
+RBT_197,Assembly,CMP_561,Camera,98% (defect-free),42.6,96.3,Stable,1.4,Yes,Yes,Yes
+RBT_198,Painting,CMP_646,LIDAR + Camera,1 (obstacle detected),75.9,91.1,Unstable,2.6,No,No,Yes
+RBT_199,Inspection,CMP_944,LIDAR,1 (obstacle detected),64.0,90.9,Stable,1.6,Yes,Yes,Yes
+RBT_200,Painting,CMP_284,Camera,92% (visual fit),47.2,94.5,Stable,2.7,Yes,No,No
+RBT_201,Assembly,CMP_599,Thermal,85.3 (°C),40.5,92.8,Unstable,2.7,Yes,Yes,Yes
+RBT_202,Painting,CMP_786,LIDAR,92% (visual fit),49.8,95.4,Unstable,1.4,No,No,No
+RBT_203,Welding,CMP_296,LIDAR,82.4 (°C),66.9,99.0,Stable,2.0,No,No,No
+RBT_204,Painting,CMP_774,Thermal,1 (obstacle detected),61.3,96.2,Stable,2.7,Yes,Yes,Yes
+RBT_205,Assembly,CMP_636,Camera,0 (clear path),72.0,98.1,Unstable,1.0,Yes,No,Yes
+RBT_206,Inspection,CMP_398,LIDAR,85.3 (°C),60.6,99.2,Stable,1.5,Yes,Yes,Yes
+RBT_207,Assembly,CMP_141,LIDAR,75.8 (°C),57.2,99.0,Stable,3.0,No,No,No
+RBT_208,Welding,CMP_905,Camera,85.3 (°C),51.1,99.3,Unstable,2.9,No,Yes,No
+RBT_209,Painting,CMP_607,Thermal,1 (obstacle detected),59.6,96.0,Unstable,1.8,No,No,Yes
+RBT_210,Assembly,CMP_698,Thermal,82.4 (°C),47.7,91.9,Unstable,1.9,No,No,No
+RBT_211,Welding,CMP_224,LIDAR + Camera,1 (obstacle detected),46.0,95.8,Unstable,2.9,No,No,Yes
+RBT_212,Assembly,CMP_973,LIDAR + Camera,0 (no obstacle),68.3,92.2,Unstable,1.1,No,Yes,Yes
+RBT_213,Painting,CMP_622,LIDAR,82.4 (°C),67.7,92.6,Unstable,1.4,No,Yes,Yes
+RBT_214,Inspection,CMP_215,LIDAR + Camera,92% (visual fit),58.0,98.8,Unstable,2.5,Yes,Yes,Yes
+RBT_215,Painting,CMP_570,LIDAR,0 (clear path),64.4,92.3,Unstable,2.2,Yes,Yes,Yes
+RBT_216,Welding,CMP_101,Thermal,85.3 (°C),68.2,96.2,Unstable,2.3,Yes,No,Yes
+RBT_217,Welding,CMP_959,LIDAR,75.8 (°C),79.5,91.2,Stable,2.8,No,No,Yes
+RBT_218,Welding,CMP_226,Thermal,1 (obstacle detected),72.3,97.3,Unstable,1.4,No,Yes,No
+RBT_219,Welding,CMP_193,Camera,92% (visual fit),59.5,94.1,Unstable,2.5,No,No,Yes
+RBT_220,Assembly,CMP_167,Thermal,1 (obstacle detected),43.1,98.5,Unstable,2.6,Yes,No,Yes
+RBT_221,Welding,CMP_725,LIDAR + Camera,0 (no obstacle),75.7,99.6,Stable,2.0,No,Yes,Yes
+RBT_222,Painting,CMP_506,Camera,0 (clear path),58.8,99.4,Unstable,1.6,Yes,No,No
+RBT_223,Inspection,CMP_135,LIDAR + Camera,82.4 (°C),66.2,90.4,Unstable,2.0,No,No,Yes
+RBT_224,Welding,CMP_474,Camera,75.8 (°C),44.9,91.3,Unstable,1.6,No,Yes,Yes
+RBT_225,Welding,CMP_551,LIDAR,98% (defect-free),67.2,99.4,Unstable,2.2,Yes,Yes,Yes
+RBT_226,Inspection,CMP_900,LIDAR + Camera,82.4 (°C),61.7,97.4,Stable,2.1,No,Yes,No
+RBT_227,Painting,CMP_548,Thermal,92% (visual fit),75.9,98.9,Stable,1.7,Yes,No,No
+RBT_228,Painting,CMP_824,LIDAR,0 (no obstacle),59.5,91.1,Stable,1.6,Yes,Yes,Yes
+RBT_229,Welding,CMP_844,Thermal,82.4 (°C),46.0,98.3,Unstable,3.0,No,Yes,Yes
+RBT_230,Painting,CMP_110,Thermal,82.4 (°C),78.6,90.4,Stable,1.1,Yes,No,No
+RBT_231,Assembly,CMP_187,LIDAR + Camera,0 (clear path),53.2,90.3,Unstable,1.7,Yes,Yes,Yes
+RBT_232,Welding,CMP_821,Thermal,1 (obstacle detected),66.4,90.1,Stable,1.1,Yes,Yes,No
+RBT_233,Inspection,CMP_543,Camera,92% (visual fit),64.6,90.5,Unstable,1.1,Yes,No,Yes
+RBT_234,Welding,CMP_632,Thermal,0 (no obstacle),46.7,94.1,Unstable,1.5,No,Yes,No
+RBT_235,Welding,CMP_376,Thermal,75.8 (°C),53.7,94.4,Stable,2.4,No,Yes,Yes
+RBT_236,Inspection,CMP_260,Thermal,0 (clear path),61.0,93.4,Stable,1.3,Yes,Yes,No
+RBT_237,Welding,CMP_949,LIDAR + Camera,98% (defect-free),44.1,91.1,Stable,2.4,No,No,Yes
+RBT_238,Painting,CMP_174,Thermal,82.4 (°C),70.5,97.3,Stable,2.2,Yes,No,Yes
+RBT_239,Inspection,CMP_208,Thermal,82.4 (°C),41.4,99.7,Stable,1.3,Yes,No,No
+RBT_240,Inspection,CMP_831,Camera,0 (no obstacle),66.4,96.4,Stable,2.4,No,Yes,Yes
+RBT_241,Painting,CMP_865,LIDAR + Camera,85.3 (°C),75.3,98.3,Unstable,1.4,Yes,Yes,No
+RBT_242,Painting,CMP_822,LIDAR,92% (visual fit),73.4,92.6,Unstable,1.4,No,Yes,No
+RBT_243,Inspection,CMP_412,Camera,0 (no obstacle),46.3,94.1,Unstable,2.9,Yes,Yes,No
+RBT_244,Assembly,CMP_197,LIDAR,1 (obstacle detected),42.7,97.7,Stable,2.8,No,Yes,No
+RBT_245,Assembly,CMP_988,LIDAR + Camera,82.4 (°C),56.4,92.6,Stable,2.6,Yes,No,No
+RBT_246,Welding,CMP_543,Camera,1 (obstacle detected),79.5,96.9,Stable,1.5,No,No,Yes
+RBT_247,Assembly,CMP_329,Thermal,75.8 (°C),55.0,92.7,Stable,1.1,No,No,No
+RBT_248,Welding,CMP_653,LIDAR,92% (visual fit),55.7,94.2,Stable,1.0,Yes,No,No
+RBT_249,Welding,CMP_237,Camera,98% (defect-free),52.7,93.2,Stable,2.7,Yes,Yes,Yes
+RBT_250,Painting,CMP_409,Thermal,0 (no obstacle),52.9,94.2,Stable,2.6,No,No,Yes
+RBT_251,Welding,CMP_504,LIDAR,75.8 (°C),44.0,96.7,Stable,2.9,Yes,No,Yes
+RBT_252,Assembly,CMP_922,Camera,0 (clear path),50.4,95.5,Stable,1.3,No,Yes,No
+RBT_253,Inspection,CMP_772,Thermal,92% (visual fit),62.2,96.7,Stable,1.2,Yes,Yes,Yes
+RBT_254,Assembly,CMP_294,Thermal,82.4 (°C),53.3,95.9,Stable,1.2,Yes,No,No
+RBT_255,Assembly,CMP_383,LIDAR + Camera,92% (visual fit),61.3,92.8,Unstable,1.6,No,Yes,No
+RBT_256,Welding,CMP_357,LIDAR + Camera,0 (no obstacle),64.4,94.9,Stable,1.5,No,No,Yes
+RBT_257,Painting,CMP_707,LIDAR + Camera,1 (obstacle detected),53.0,90.1,Stable,2.5,No,Yes,No
+RBT_258,Welding,CMP_353,LIDAR + Camera,0 (no obstacle),75.3,94.0,Stable,1.7,Yes,No,No
+RBT_259,Inspection,CMP_762,Thermal,82.4 (°C),64.1,94.4,Unstable,1.1,Yes,No,Yes
+RBT_260,Assembly,CMP_789,LIDAR,92% (visual fit),78.8,97.3,Stable,1.5,No,No,Yes
+RBT_261,Painting,CMP_322,Thermal,98% (defect-free),57.9,93.4,Stable,1.3,Yes,No,No
+RBT_262,Inspection,CMP_150,Thermal,98% (defect-free),59.9,98.3,Stable,1.7,Yes,No,No
+RBT_263,Painting,CMP_919,Camera,0 (clear path),43.7,97.4,Stable,2.2,No,Yes,Yes
+RBT_264,Assembly,CMP_499,Camera,1 (obstacle detected),48.4,97.0,Unstable,1.7,No,Yes,Yes
+RBT_265,Assembly,CMP_207,Camera,0 (clear path),54.1,98.7,Stable,2.3,No,Yes,Yes
+RBT_266,Painting,CMP_278,LIDAR + Camera,0 (clear path),77.5,96.0,Unstable,1.6,Yes,Yes,No
+RBT_267,Welding,CMP_811,Thermal,0 (clear path),73.5,96.4,Stable,1.5,No,Yes,Yes
+RBT_268,Painting,CMP_443,Thermal,1 (obstacle detected),47.0,91.0,Stable,1.3,Yes,No,Yes
+RBT_269,Assembly,CMP_113,LIDAR,92% (visual fit),48.1,98.6,Unstable,1.0,Yes,No,Yes
+RBT_270,Inspection,CMP_444,Thermal,1 (obstacle detected),71.7,91.6,Stable,2.2,Yes,No,Yes
+RBT_271,Assembly,CMP_265,Thermal,98% (defect-free),67.1,93.2,Unstable,2.0,Yes,Yes,Yes
+RBT_272,Inspection,CMP_671,LIDAR,0 (no obstacle),53.2,98.2,Unstable,2.8,No,No,Yes
+RBT_273,Inspection,CMP_790,LIDAR + Camera,98% (defect-free),40.9,96.4,Stable,1.7,Yes,No,No
+RBT_274,Welding,CMP_475,LIDAR + Camera,1 (obstacle detected),71.5,94.1,Unstable,2.7,Yes,Yes,Yes
+RBT_275,Painting,CMP_226,LIDAR + Camera,82.4 (°C),79.9,92.4,Stable,2.9,Yes,Yes,Yes
+RBT_276,Assembly,CMP_730,LIDAR,92% (visual fit),78.6,97.7,Stable,2.2,No,Yes,No
+RBT_277,Assembly,CMP_704,LIDAR + Camera,0 (clear path),78.9,98.5,Unstable,2.4,No,No,No
+RBT_278,Welding,CMP_685,Thermal,85.3 (°C),55.1,99.7,Stable,2.0,No,No,No
+RBT_279,Assembly,CMP_356,Thermal,98% (defect-free),61.8,92.7,Stable,1.7,No,Yes,Yes
+RBT_280,Assembly,CMP_738,LIDAR + Camera,1 (obstacle detected),73.8,95.2,Unstable,2.8,No,No,No
+RBT_281,Assembly,CMP_798,Thermal,82.4 (°C),78.8,90.9,Unstable,2.8,No,No,Yes
+RBT_282,Welding,CMP_966,LIDAR,0 (no obstacle),44.6,99.2,Unstable,2.4,Yes,No,Yes
+RBT_283,Inspection,CMP_983,LIDAR,92% (visual fit),55.9,92.8,Unstable,1.6,Yes,Yes,No
+RBT_284,Assembly,CMP_924,Thermal,0 (no obstacle),61.9,94.2,Unstable,2.8,No,Yes,Yes
+RBT_285,Welding,CMP_442,Thermal,85.3 (°C),46.4,99.3,Unstable,1.4,No,No,Yes
+RBT_286,Assembly,CMP_958,LIDAR + Camera,82.4 (°C),49.5,92.5,Stable,1.3,Yes,No,No
+RBT_287,Painting,CMP_371,LIDAR,0 (no obstacle),49.3,91.7,Unstable,1.8,No,No,No
+RBT_288,Inspection,CMP_624,LIDAR + Camera,1 (obstacle detected),40.6,93.9,Unstable,1.1,No,No,No
+RBT_289,Welding,CMP_306,LIDAR,98% (defect-free),64.1,96.4,Stable,2.9,No,Yes,Yes
+RBT_290,Inspection,CMP_731,Thermal,1 (obstacle detected),53.1,90.1,Stable,1.2,No,Yes,No
+RBT_291,Painting,CMP_104,Camera,82.4 (°C),70.7,98.8,Stable,1.8,Yes,Yes,Yes
+RBT_292,Welding,CMP_590,Thermal,0 (no obstacle),50.1,93.4,Unstable,2.5,Yes,Yes,Yes
+RBT_293,Welding,CMP_945,LIDAR,98% (defect-free),68.9,90.3,Stable,2.8,No,Yes,Yes
+RBT_294,Painting,CMP_222,Thermal,0 (clear path),78.5,94.0,Stable,2.9,No,No,Yes
+RBT_295,Assembly,CMP_106,Camera,0 (clear path),44.6,96.5,Unstable,2.8,No,Yes,Yes
+RBT_296,Painting,CMP_190,LIDAR,98% (defect-free),67.5,90.8,Unstable,3.0,Yes,Yes,No
+RBT_297,Welding,CMP_602,LIDAR,98% (defect-free),46.1,93.7,Unstable,2.1,No,Yes,No
+RBT_298,Inspection,CMP_256,Camera,98% (defect-free),70.5,99.0,Stable,1.6,No,No,Yes
+RBT_299,Assembly,CMP_344,Camera,0 (clear path),55.1,96.6,Stable,1.4,Yes,Yes,No
+RBT_300,Painting,CMP_347,LIDAR + Camera,82.4 (°C),51.5,90.1,Stable,3.0,No,Yes,Yes
+RBT_301,Welding,CMP_961,Camera,92% (visual fit),49.4,91.0,Stable,1.7,No,Yes,Yes
+RBT_302,Painting,CMP_728,Camera,0 (clear path),51.7,94.8,Unstable,1.3,No,Yes,Yes
+RBT_303,Painting,CMP_664,LIDAR + Camera,1 (obstacle detected),59.9,93.9,Unstable,2.4,No,No,Yes
+RBT_304,Welding,CMP_188,LIDAR,92% (visual fit),61.8,99.5,Stable,2.1,Yes,Yes,No
+RBT_305,Assembly,CMP_211,Thermal,98% (defect-free),74.7,92.2,Unstable,2.2,Yes,Yes,Yes
+RBT_306,Welding,CMP_689,Camera,98% (defect-free),41.9,90.7,Unstable,2.0,Yes,No,No
+RBT_307,Painting,CMP_199,Thermal,0 (no obstacle),54.6,94.7,Unstable,1.2,No,No,No
+RBT_308,Welding,CMP_208,Thermal,1 (obstacle detected),54.6,91.0,Unstable,2.6,Yes,Yes,No
+RBT_309,Inspection,CMP_371,LIDAR + Camera,0 (clear path),74.8,92.5,Unstable,2.9,No,No,Yes
+RBT_310,Assembly,CMP_626,LIDAR,0 (clear path),46.6,97.6,Unstable,2.9,Yes,No,Yes
+RBT_311,Inspection,CMP_147,LIDAR,82.4 (°C),47.0,98.9,Unstable,2.1,Yes,No,No
+RBT_312,Assembly,CMP_896,Thermal,1 (obstacle detected),65.6,91.2,Stable,2.7,No,Yes,Yes
+RBT_313,Painting,CMP_425,LIDAR + Camera,98% (defect-free),56.5,98.5,Stable,2.2,Yes,No,Yes
+RBT_314,Welding,CMP_874,Thermal,75.8 (°C),62.4,99.4,Stable,2.5,Yes,No,No
+RBT_315,Painting,CMP_998,LIDAR + Camera,92% (visual fit),44.1,94.2,Stable,1.4,Yes,Yes,Yes
+RBT_316,Painting,CMP_556,LIDAR,75.8 (°C),48.9,97.3,Stable,2.3,No,Yes,No
+RBT_317,Inspection,CMP_503,Thermal,82.4 (°C),52.9,98.7,Stable,2.4,No,Yes,Yes
+RBT_318,Inspection,CMP_519,Camera,92% (visual fit),62.7,94.3,Unstable,1.5,Yes,Yes,Yes
+RBT_319,Assembly,CMP_783,LIDAR + Camera,82.4 (°C),45.3,91.9,Stable,2.8,No,No,Yes
+RBT_320,Welding,CMP_980,LIDAR + Camera,0 (clear path),63.8,93.2,Stable,2.8,No,Yes,Yes
+RBT_321,Painting,CMP_794,Camera,75.8 (°C),74.7,99.5,Stable,2.2,Yes,Yes,No
+RBT_322,Painting,CMP_569,Thermal,98% (defect-free),78.9,94.9,Unstable,2.7,Yes,No,No
+RBT_323,Inspection,CMP_776,Camera,92% (visual fit),66.2,97.6,Stable,2.2,No,No,No
+RBT_324,Assembly,CMP_127,LIDAR,82.4 (°C),67.3,99.4,Stable,1.0,No,No,Yes
+RBT_325,Painting,CMP_381,LIDAR + Camera,75.8 (°C),60.7,98.2,Unstable,1.2,No,No,Yes
+RBT_326,Inspection,CMP_818,Camera,92% (visual fit),67.4,93.4,Stable,1.4,No,Yes,Yes
+RBT_327,Welding,CMP_914,LIDAR,85.3 (°C),45.0,98.2,Stable,2.4,Yes,No,No
+RBT_328,Painting,CMP_931,Thermal,0 (clear path),65.0,94.6,Unstable,1.2,No,No,Yes
+RBT_329,Painting,CMP_393,Thermal,98% (defect-free),79.3,94.6,Stable,1.5,Yes,No,No
+RBT_330,Inspection,CMP_657,Thermal,0 (clear path),78.6,93.0,Unstable,1.6,No,No,Yes
+RBT_331,Assembly,CMP_790,Camera,1 (obstacle detected),62.1,99.2,Stable,2.4,No,No,Yes
+RBT_332,Painting,CMP_242,LIDAR + Camera,0 (clear path),72.7,97.4,Unstable,1.9,No,Yes,No
+RBT_333,Welding,CMP_726,Camera,98% (defect-free),43.3,93.0,Unstable,1.6,No,No,Yes
+RBT_334,Welding,CMP_786,Thermal,82.4 (°C),77.8,93.0,Unstable,1.2,No,No,No
+RBT_335,Assembly,CMP_546,LIDAR,0 (no obstacle),62.2,92.2,Unstable,2.8,Yes,Yes,Yes
+RBT_336,Assembly,CMP_246,LIDAR + Camera,1 (obstacle detected),78.4,91.5,Stable,2.8,Yes,No,Yes
+RBT_337,Assembly,CMP_750,Thermal,75.8 (°C),55.9,97.5,Stable,2.6,No,No,Yes
+RBT_338,Inspection,CMP_170,Thermal,75.8 (°C),60.7,95.9,Unstable,2.1,No,No,No
+RBT_339,Assembly,CMP_608,LIDAR,92% (visual fit),59.7,91.2,Stable,2.0,Yes,Yes,Yes
+RBT_340,Painting,CMP_340,LIDAR + Camera,82.4 (°C),53.2,90.9,Stable,2.0,No,Yes,Yes
+RBT_341,Painting,CMP_111,Camera,0 (clear path),75.3,93.9,Stable,1.9,Yes,Yes,No
+RBT_342,Inspection,CMP_921,Camera,92% (visual fit),56.9,93.1,Stable,1.3,Yes,No,Yes
+RBT_343,Assembly,CMP_598,LIDAR + Camera,75.8 (°C),42.2,97.7,Unstable,2.8,Yes,Yes,No
+RBT_344,Assembly,CMP_556,Thermal,98% (defect-free),78.1,90.1,Stable,1.4,No,Yes,Yes
+RBT_345,Welding,CMP_960,LIDAR + Camera,0 (clear path),52.5,95.8,Unstable,2.3,No,No,Yes
+RBT_346,Welding,CMP_863,Camera,75.8 (°C),55.7,97.8,Unstable,1.4,No,No,Yes
+RBT_347,Painting,CMP_151,LIDAR,85.3 (°C),62.2,98.8,Unstable,1.8,No,No,No
+RBT_348,Inspection,CMP_386,LIDAR,0 (clear path),48.4,95.4,Stable,1.7,Yes,Yes,Yes
+RBT_349,Assembly,CMP_393,Thermal,1 (obstacle detected),64.0,95.6,Stable,2.6,Yes,Yes,Yes
+RBT_350,Welding,CMP_179,LIDAR + Camera,85.3 (°C),70.3,94.2,Stable,2.8,No,Yes,No
+RBT_351,Painting,CMP_260,LIDAR + Camera,75.8 (°C),75.7,90.1,Unstable,3.0,Yes,Yes,No
+RBT_352,Painting,CMP_375,LIDAR + Camera,85.3 (°C),70.4,90.4,Stable,2.4,No,No,No
+RBT_353,Assembly,CMP_126,LIDAR + Camera,98% (defect-free),41.9,98.6,Unstable,2.3,Yes,Yes,Yes
+RBT_354,Assembly,CMP_196,LIDAR,92% (visual fit),77.4,96.8,Unstable,1.8,No,Yes,Yes
+RBT_355,Welding,CMP_175,LIDAR,75.8 (°C),68.4,92.6,Stable,2.6,Yes,Yes,Yes
+RBT_356,Assembly,CMP_691,Camera,0 (clear path),78.0,91.0,Stable,1.7,No,Yes,No
+RBT_357,Painting,CMP_407,LIDAR + Camera,92% (visual fit),75.5,93.5,Unstable,1.5,No,No,Yes
+RBT_358,Assembly,CMP_874,Camera,0 (clear path),46.5,91.0,Stable,2.8,Yes,Yes,No
+RBT_359,Assembly,CMP_655,LIDAR + Camera,85.3 (°C),69.1,96.6,Unstable,1.3,Yes,Yes,Yes
+RBT_360,Inspection,CMP_814,Thermal,82.4 (°C),68.9,94.8,Unstable,2.0,No,No,Yes
+RBT_361,Assembly,CMP_202,Thermal,82.4 (°C),49.4,91.5,Stable,2.9,Yes,Yes,No
+RBT_362,Welding,CMP_579,LIDAR + Camera,1 (obstacle detected),59.0,99.8,Stable,1.7,No,Yes,Yes
+RBT_363,Welding,CMP_712,LIDAR,82.4 (°C),75.1,92.4,Unstable,2.5,Yes,No,No
+RBT_364,Painting,CMP_539,Camera,85.3 (°C),65.3,90.5,Unstable,2.0,Yes,Yes,Yes
+RBT_365,Painting,CMP_164,LIDAR,1 (obstacle detected),40.6,95.1,Unstable,1.3,No,Yes,Yes
+RBT_366,Painting,CMP_715,Thermal,98% (defect-free),78.4,96.0,Stable,2.5,Yes,Yes,No
+RBT_367,Assembly,CMP_863,Camera,0 (no obstacle),41.2,98.4,Stable,2.3,No,Yes,Yes
+RBT_368,Painting,CMP_720,LIDAR + Camera,98% (defect-free),51.1,97.2,Stable,1.3,Yes,Yes,Yes
+RBT_369,Painting,CMP_770,LIDAR + Camera,85.3 (°C),48.0,96.1,Stable,1.1,No,Yes,Yes
+RBT_370,Inspection,CMP_360,LIDAR,85.3 (°C),66.1,97.9,Unstable,2.0,Yes,Yes,Yes
+RBT_371,Welding,CMP_437,LIDAR + Camera,98% (defect-free),45.3,92.8,Unstable,2.9,Yes,No,Yes
+RBT_372,Inspection,CMP_487,Thermal,82.4 (°C),59.3,98.4,Unstable,2.0,No,Yes,No
+RBT_373,Welding,CMP_581,Thermal,0 (clear path),66.9,93.5,Stable,1.9,Yes,Yes,No
+RBT_374,Assembly,CMP_325,LIDAR + Camera,75.8 (°C),50.9,98.1,Stable,2.1,No,Yes,Yes
+RBT_375,Welding,CMP_461,Camera,82.4 (°C),69.6,95.1,Stable,1.7,No,No,Yes
+RBT_376,Welding,CMP_136,LIDAR + Camera,85.3 (°C),46.1,98.4,Unstable,1.7,No,No,No
+RBT_377,Painting,CMP_244,LIDAR,0 (clear path),48.1,98.3,Unstable,2.0,No,No,No
+RBT_378,Inspection,CMP_833,LIDAR + Camera,1 (obstacle detected),52.8,96.3,Stable,2.8,Yes,Yes,Yes
+RBT_379,Welding,CMP_141,LIDAR + Camera,1 (obstacle detected),63.5,95.5,Unstable,1.5,Yes,Yes,Yes
+RBT_380,Inspection,CMP_289,Camera,85.3 (°C),76.1,96.1,Stable,2.7,No,Yes,No
+RBT_381,Inspection,CMP_354,Camera,92% (visual fit),58.0,95.5,Stable,1.7,No,Yes,Yes
+RBT_382,Inspection,CMP_922,Thermal,85.3 (°C),52.0,91.7,Unstable,2.5,No,Yes,No
+RBT_383,Welding,CMP_114,LIDAR + Camera,0 (clear path),54.8,98.5,Stable,2.9,No,No,No
+RBT_384,Assembly,CMP_396,Camera,82.4 (°C),77.4,99.2,Unstable,1.4,No,Yes,Yes
+RBT_385,Painting,CMP_592,LIDAR + Camera,92% (visual fit),42.7,97.0,Unstable,1.6,No,No,Yes
+RBT_386,Welding,CMP_831,LIDAR + Camera,82.4 (°C),58.3,90.0,Stable,1.3,Yes,No,No
+RBT_387,Painting,CMP_193,LIDAR + Camera,1 (obstacle detected),77.5,91.6,Unstable,1.3,Yes,Yes,No
+RBT_388,Painting,CMP_849,Thermal,0 (no obstacle),42.3,97.9,Unstable,2.1,Yes,Yes,No
+RBT_389,Painting,CMP_115,Camera,0 (clear path),53.6,97.7,Stable,2.3,Yes,Yes,Yes
+RBT_390,Welding,CMP_167,Thermal,82.4 (°C),65.4,92.0,Stable,1.8,No,No,No
+RBT_391,Assembly,CMP_223,LIDAR,85.3 (°C),72.1,94.6,Stable,2.5,Yes,Yes,Yes
+RBT_392,Assembly,CMP_773,LIDAR + Camera,82.4 (°C),53.9,99.2,Stable,2.0,Yes,No,No
+RBT_393,Assembly,CMP_904,Camera,82.4 (°C),66.2,95.1,Stable,2.3,Yes,No,Yes
+RBT_394,Welding,CMP_970,Thermal,1 (obstacle detected),64.7,98.1,Unstable,2.9,Yes,Yes,No
+RBT_395,Painting,CMP_322,LIDAR + Camera,0 (no obstacle),79.0,99.1,Unstable,1.0,Yes,Yes,Yes
+RBT_396,Inspection,CMP_844,LIDAR + Camera,85.3 (°C),63.1,93.8,Unstable,1.8,No,Yes,No
+RBT_397,Inspection,CMP_771,LIDAR + Camera,85.3 (°C),43.2,95.4,Unstable,2.4,No,No,Yes
+RBT_398,Welding,CMP_608,LIDAR,82.4 (°C),72.2,94.7,Unstable,2.5,Yes,No,No
+RBT_399,Assembly,CMP_857,LIDAR,0 (no obstacle),72.7,90.7,Stable,1.9,Yes,No,Yes
+RBT_400,Painting,CMP_993,Thermal,75.8 (°C),51.8,98.7,Stable,2.7,Yes,Yes,Yes
+RBT_401,Painting,CMP_445,Camera,0 (clear path),75.1,96.0,Stable,2.6,Yes,No,Yes
+RBT_402,Welding,CMP_937,Thermal,0 (no obstacle),68.1,99.4,Stable,1.6,Yes,Yes,No
+RBT_403,Welding,CMP_306,LIDAR + Camera,0 (clear path),79.7,93.3,Stable,1.2,Yes,No,No
+RBT_404,Painting,CMP_305,LIDAR,0 (no obstacle),63.8,92.3,Stable,3.0,Yes,Yes,No
+RBT_405,Painting,CMP_707,Thermal,98% (defect-free),77.6,92.0,Unstable,2.7,Yes,Yes,No
+RBT_406,Painting,CMP_895,Thermal,85.3 (°C),60.6,97.2,Stable,1.8,Yes,No,No
+RBT_407,Assembly,CMP_980,Thermal,1 (obstacle detected),62.4,91.6,Stable,1.7,No,Yes,No
+RBT_408,Assembly,CMP_886,Thermal,1 (obstacle detected),40.5,94.2,Unstable,1.9,Yes,No,No
+RBT_409,Assembly,CMP_627,LIDAR,75.8 (°C),63.7,98.9,Stable,2.0,Yes,No,No
+RBT_410,Inspection,CMP_142,LIDAR + Camera,1 (obstacle detected),54.8,95.3,Unstable,1.6,No,No,Yes
+RBT_411,Assembly,CMP_811,LIDAR,92% (visual fit),42.0,98.8,Stable,2.5,Yes,Yes,Yes
+RBT_412,Inspection,CMP_943,Camera,82.4 (°C),71.3,98.7,Stable,1.8,Yes,No,No
+RBT_413,Assembly,CMP_294,LIDAR,0 (no obstacle),68.9,94.8,Unstable,1.3,No,No,Yes
+RBT_414,Welding,CMP_943,Camera,75.8 (°C),49.6,94.9,Stable,2.3,Yes,Yes,No
+RBT_415,Welding,CMP_520,LIDAR,0 (no obstacle),72.0,94.9,Unstable,1.2,Yes,Yes,No
+RBT_416,Inspection,CMP_642,LIDAR,85.3 (°C),42.0,98.0,Unstable,2.1,Yes,Yes,No
+RBT_417,Welding,CMP_147,LIDAR,98% (defect-free),77.0,94.2,Unstable,1.8,Yes,Yes,No
+RBT_418,Painting,CMP_319,LIDAR,85.3 (°C),47.1,91.0,Unstable,2.5,No,No,No
+RBT_419,Assembly,CMP_827,Camera,92% (visual fit),57.2,93.0,Unstable,1.2,Yes,No,No
+RBT_420,Assembly,CMP_177,Camera,85.3 (°C),72.1,99.3,Stable,1.0,Yes,Yes,No
+RBT_421,Welding,CMP_450,LIDAR + Camera,85.3 (°C),72.3,90.2,Stable,1.0,Yes,Yes,No
+RBT_422,Inspection,CMP_956,Thermal,85.3 (°C),43.6,92.0,Stable,1.8,No,No,No
+RBT_423,Welding,CMP_844,LIDAR,92% (visual fit),40.4,98.2,Unstable,1.2,No,Yes,Yes
+RBT_424,Assembly,CMP_890,Thermal,92% (visual fit),65.5,94.8,Unstable,1.5,No,Yes,Yes
+RBT_425,Painting,CMP_280,Camera,0 (no obstacle),52.9,96.2,Unstable,1.2,No,Yes,No
+RBT_426,Assembly,CMP_467,Camera,75.8 (°C),77.9,95.9,Stable,1.6,Yes,Yes,No
+RBT_427,Assembly,CMP_257,LIDAR,82.4 (°C),55.1,99.4,Unstable,1.9,Yes,No,Yes
+RBT_428,Painting,CMP_432,Thermal,92% (visual fit),68.6,94.8,Unstable,1.6,Yes,No,Yes
+RBT_429,Painting,CMP_493,LIDAR,0 (no obstacle),77.0,93.9,Unstable,2.2,No,Yes,No
+RBT_430,Painting,CMP_814,LIDAR + Camera,92% (visual fit),43.1,94.6,Unstable,1.5,No,No,Yes
+RBT_431,Painting,CMP_613,LIDAR + Camera,1 (obstacle detected),42.3,96.5,Stable,1.4,No,No,Yes
+RBT_432,Inspection,CMP_883,Camera,92% (visual fit),49.4,94.3,Stable,2.2,Yes,No,No
+RBT_433,Assembly,CMP_851,Camera,0 (no obstacle),40.6,96.5,Unstable,2.9,No,Yes,No
+RBT_434,Painting,CMP_597,Camera,1 (obstacle detected),51.8,93.8,Unstable,1.8,No,Yes,Yes
+RBT_435,Painting,CMP_187,Camera,0 (clear path),43.3,90.2,Stable,1.1,No,Yes,No
+RBT_436,Painting,CMP_375,LIDAR + Camera,82.4 (°C),69.4,96.7,Stable,2.6,No,Yes,Yes
+RBT_437,Painting,CMP_948,LIDAR + Camera,75.8 (°C),70.1,98.6,Stable,2.1,No,Yes,No
+RBT_438,Welding,CMP_376,Camera,82.4 (°C),72.8,93.2,Unstable,3.0,Yes,Yes,No
+RBT_439,Inspection,CMP_252,Thermal,82.4 (°C),53.5,95.9,Unstable,2.1,No,Yes,Yes
+RBT_440,Painting,CMP_667,LIDAR,98% (defect-free),56.3,96.8,Unstable,2.0,No,No,No
+RBT_441,Inspection,CMP_760,LIDAR + Camera,82.4 (°C),59.5,90.7,Unstable,2.5,No,No,Yes
+RBT_442,Inspection,CMP_296,Camera,98% (defect-free),64.4,94.1,Stable,2.2,No,Yes,Yes
+RBT_443,Inspection,CMP_885,Camera,92% (visual fit),55.9,93.2,Unstable,2.4,No,No,No
+RBT_444,Inspection,CMP_436,LIDAR,0 (clear path),70.0,97.5,Stable,2.9,Yes,Yes,Yes
+RBT_445,Welding,CMP_757,Thermal,85.3 (°C),63.5,92.5,Unstable,2.7,No,Yes,No
+RBT_446,Welding,CMP_223,Thermal,82.4 (°C),65.2,93.0,Unstable,2.5,Yes,No,Yes
+RBT_447,Painting,CMP_800,LIDAR,75.8 (°C),76.9,95.3,Unstable,2.1,No,Yes,Yes
+RBT_448,Assembly,CMP_163,Thermal,0 (no obstacle),72.5,98.8,Unstable,2.1,No,No,Yes
+RBT_449,Painting,CMP_761,Thermal,85.3 (°C),44.6,95.4,Stable,2.9,No,Yes,Yes
+RBT_450,Welding,CMP_169,LIDAR,0 (no obstacle),60.9,92.9,Stable,1.1,Yes,Yes,No
+RBT_451,Inspection,CMP_384,Thermal,98% (defect-free),68.0,92.8,Unstable,1.6,Yes,Yes,Yes
+RBT_452,Painting,CMP_490,LIDAR,75.8 (°C),52.2,92.4,Stable,1.4,Yes,No,No
+RBT_453,Welding,CMP_434,LIDAR + Camera,0 (clear path),51.8,98.2,Stable,1.6,No,No,Yes
+RBT_454,Inspection,CMP_237,LIDAR,75.8 (°C),46.8,96.1,Unstable,2.5,Yes,No,Yes
+RBT_455,Painting,CMP_649,Thermal,98% (defect-free),55.4,99.7,Unstable,1.9,No,Yes,No
+RBT_456,Inspection,CMP_337,LIDAR,0 (no obstacle),71.3,91.5,Unstable,1.6,Yes,No,No
+RBT_457,Inspection,CMP_970,Camera,0 (clear path),40.6,97.1,Unstable,1.5,Yes,No,No
+RBT_458,Painting,CMP_956,Camera,0 (no obstacle),70.1,96.6,Unstable,2.8,Yes,Yes,Yes
+RBT_459,Painting,CMP_989,Thermal,82.4 (°C),44.5,90.2,Stable,1.6,No,Yes,No
+RBT_460,Welding,CMP_705,Thermal,0 (clear path),48.7,93.6,Stable,1.3,Yes,Yes,Yes
+RBT_461,Welding,CMP_168,Thermal,85.3 (°C),58.7,92.5,Unstable,1.2,Yes,Yes,No
+RBT_462,Painting,CMP_926,Camera,85.3 (°C),63.3,94.9,Unstable,2.0,Yes,Yes,No
+RBT_463,Assembly,CMP_571,LIDAR,85.3 (°C),48.7,96.3,Unstable,2.9,No,Yes,Yes
+RBT_464,Assembly,CMP_920,LIDAR,85.3 (°C),76.1,98.9,Unstable,1.4,Yes,No,Yes
+RBT_465,Inspection,CMP_472,Camera,82.4 (°C),57.7,95.1,Stable,1.8,Yes,No,Yes
+RBT_466,Welding,CMP_812,Camera,0 (no obstacle),66.5,90.5,Unstable,1.4,No,Yes,Yes
+RBT_467,Painting,CMP_999,LIDAR,1 (obstacle detected),65.5,92.0,Stable,2.6,No,Yes,No
+RBT_468,Assembly,CMP_196,Thermal,98% (defect-free),59.6,93.1,Unstable,2.7,Yes,No,No
+RBT_469,Inspection,CMP_816,LIDAR + Camera,98% (defect-free),55.9,95.1,Stable,2.6,Yes,Yes,Yes
+RBT_470,Inspection,CMP_660,LIDAR,0 (clear path),78.0,92.3,Stable,2.1,Yes,No,Yes
+RBT_471,Assembly,CMP_945,LIDAR + Camera,98% (defect-free),47.9,90.8,Stable,1.4,No,No,Yes
+RBT_472,Welding,CMP_968,LIDAR + Camera,82.4 (°C),58.5,94.8,Unstable,2.7,Yes,Yes,Yes
+RBT_473,Welding,CMP_593,Thermal,0 (no obstacle),69.2,90.7,Stable,1.1,Yes,No,No
+RBT_474,Inspection,CMP_951,LIDAR + Camera,98% (defect-free),65.4,93.2,Unstable,1.3,Yes,Yes,No
+RBT_475,Assembly,CMP_996,Camera,0 (no obstacle),47.9,98.3,Unstable,2.0,Yes,Yes,No
+RBT_476,Welding,CMP_209,LIDAR + Camera,0 (no obstacle),76.0,97.4,Stable,1.2,Yes,No,No
+RBT_477,Assembly,CMP_442,Thermal,85.3 (°C),54.5,94.7,Unstable,2.3,No,Yes,Yes
+RBT_478,Welding,CMP_302,LIDAR + Camera,82.4 (°C),40.6,94.5,Unstable,2.9,No,No,Yes
+RBT_479,Painting,CMP_506,LIDAR + Camera,92% (visual fit),54.1,98.3,Unstable,2.6,Yes,Yes,No
+RBT_480,Inspection,CMP_201,LIDAR + Camera,98% (defect-free),47.6,90.8,Stable,2.2,No,No,Yes
+RBT_481,Assembly,CMP_997,LIDAR + Camera,82.4 (°C),67.4,99.6,Unstable,3.0,Yes,Yes,Yes
+RBT_482,Welding,CMP_530,Camera,1 (obstacle detected),54.0,99.9,Stable,2.3,No,Yes,Yes
+RBT_483,Inspection,CMP_919,LIDAR,82.4 (°C),57.5,98.4,Stable,1.8,No,Yes,Yes
+RBT_484,Assembly,CMP_265,Camera,92% (visual fit),62.0,98.8,Unstable,2.4,No,No,Yes
+RBT_485,Painting,CMP_363,LIDAR,75.8 (°C),40.6,98.1,Unstable,1.4,Yes,No,Yes
+RBT_486,Assembly,CMP_736,LIDAR,1 (obstacle detected),45.4,93.2,Unstable,2.1,Yes,No,No
+RBT_487,Assembly,CMP_902,Camera,75.8 (°C),56.5,99.5,Unstable,2.0,No,Yes,Yes
+RBT_488,Inspection,CMP_946,LIDAR + Camera,98% (defect-free),62.0,96.6,Unstable,1.5,Yes,No,No
+RBT_489,Assembly,CMP_509,LIDAR + Camera,1 (obstacle detected),59.2,94.3,Unstable,1.6,Yes,No,No
+RBT_490,Welding,CMP_408,LIDAR + Camera,92% (visual fit),50.9,96.1,Unstable,1.4,No,Yes,No
+RBT_491,Painting,CMP_929,Camera,0 (clear path),46.2,98.2,Unstable,3.0,Yes,Yes,No
+RBT_492,Inspection,CMP_554,Camera,0 (clear path),61.4,93.3,Stable,1.3,No,No,Yes
+RBT_493,Welding,CMP_641,LIDAR,85.3 (°C),69.9,92.9,Unstable,2.5,Yes,Yes,Yes
+RBT_494,Welding,CMP_251,LIDAR + Camera,0 (clear path),73.0,93.6,Unstable,1.7,Yes,No,No
+RBT_495,Painting,CMP_629,Thermal,1 (obstacle detected),74.4,98.3,Unstable,2.4,Yes,No,No
+RBT_496,Inspection,CMP_834,LIDAR,85.3 (°C),66.3,96.2,Unstable,1.3,No,Yes,No
+RBT_497,Inspection,CMP_851,LIDAR,92% (visual fit),45.1,92.8,Unstable,2.3,No,Yes,Yes
+RBT_498,Inspection,CMP_657,LIDAR,82.4 (°C),75.4,98.7,Unstable,2.6,Yes,No,No
+RBT_499,Assembly,CMP_562,Camera,98% (defect-free),48.7,94.9,Stable,2.2,No,Yes,No
+RBT_500,Assembly,CMP_465,LIDAR + Camera,75.8 (°C),73.5,91.4,Stable,2.0,Yes,No,Yes
