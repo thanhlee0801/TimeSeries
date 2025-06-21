@@ -1256,9 +1256,8 @@ with open(os.path.join(output_dir, "typhoon_forecast_report.html"), "w", encodin
 print("\n--- HTML Report Generated ---")
 print(f"Bạn có thể tìm thấy báo cáo tại: {output_dir}typhoon_forecast_report.html")
 print("Tải xuống từ phần 'Output' của Kaggle Notebook của bạn.")
---- HTML Report Generated ---
-Bạn có thể tìm thấy báo cáo tại: /kaggle/working/typhoon_forecast_report.html
-Tải xuống từ phần 'Output' của Kaggle Notebook của bạn.
+
+
 # --- 9. Triển khai Flask để phục vụ báo cáo HTML ---
 print("\n--- Deploying Flask to serve HTML report ---")
 
