@@ -1266,7 +1266,6 @@ try:
     import flask
 except ImportError:
     print("Flask not found, installing...")
-    !pip install Flask
     import flask
 print("Flask ready.")
 
