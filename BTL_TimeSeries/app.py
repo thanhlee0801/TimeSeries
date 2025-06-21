@@ -1346,10 +1346,6 @@ if __name__ == '__main__':
     else:
         print("Flask app not started because HTML file was not found or moved successfully.")
 
-  import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import os
 
 # --- 7. Generate HTML Report and Comparison ---
 # Đảm bảo output_dir được định nghĩa (ví dụ: output_dir = "/kaggle/working/")
