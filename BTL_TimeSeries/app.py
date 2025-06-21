@@ -1,4 +1,4 @@
-!pip install Flask
+pip install Flask
 
 # --- DEBUGGING INITIAL DATA ---
 print(f"DEBUG: Shape of df_original (after loading): {df_original.shape if 'df_original' in locals() else 'Not found'}")
