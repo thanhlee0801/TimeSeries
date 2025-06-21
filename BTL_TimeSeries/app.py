@@ -1,7 +1,7 @@
 import streamlit as st
 
 try:
-    with open("BTL_TimeSeries/results/typhoon_forecast_report.htmll", "r", encoding="utf-8") as f:
+    with open("BTL_TimeSeries/results/typhoon_forecast_report.html", "r", encoding="utf-8") as f:
         html_from_file = f.read()
     st.markdown(html_from_file, unsafe_allow_html=True)
 except FileNotFoundError:
